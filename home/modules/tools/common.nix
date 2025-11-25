@@ -31,6 +31,7 @@
     foliate
     meld
     thunderbird
+    libreoffice-qt6-fresh
 
     kdePackages.dolphin
     kdePackages.kio-fuse
