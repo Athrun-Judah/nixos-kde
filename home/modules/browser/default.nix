@@ -19,4 +19,6 @@
       "privacy.resistFingerprinting" = false; # 有时候会影响深色模式检测
     };
   };
+
+  stylix.targets.librewolf.profileNames = [ "default" ];
 }

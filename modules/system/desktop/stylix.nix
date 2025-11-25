@@ -44,4 +44,9 @@
     noto-fonts-cjk-serif
     noto-fonts-cjk-sans
   ];
+
+  stylix.targets = {
+    # 这里的 gtk.enable = true 依然保留，用于非 KDE 应用
+    gtk.enable = true;
+  };
 }
