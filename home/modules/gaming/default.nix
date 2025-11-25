@@ -35,9 +35,4 @@
       background_alpha = 0.5;
     };
   };
-
-  # Gamescope (微型合成器)
-  # 通常作为命令运行: gamescope -W 2560 -H 1600 -r 165 -- %command%
-  # 这里安装它
-  home.packages = [ pkgs.gamescope ];
 }
