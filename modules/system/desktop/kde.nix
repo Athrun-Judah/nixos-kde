@@ -22,7 +22,6 @@
     khelpcenter     # 帮助中心
 
     # --- 办公与工具 ---
-    kkate           # 文本编辑器 (你用 helix/zed)
     kate            # 同上
     print-manager   # 打印机管理 (如果不打印可以去掉)
 
