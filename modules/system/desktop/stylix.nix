@@ -48,8 +48,6 @@
   # 针对 KDE 的目标配置
   stylix.targets = {
     sddm.enable = true;    # 登录界面使用 Gruvbox
-    plasma.enable = true;     # KDE 界面使用 Gruvbox
-    qt.enable = true;
-    gtk.enable = true;     # GTK 应用在 KDE 下一致性
+    qt.enable = true;     # GTK 应用在 KDE 下一致性
   };
 }
