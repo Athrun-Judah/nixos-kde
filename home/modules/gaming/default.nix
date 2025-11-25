@@ -1,4 +1,4 @@
-{ pkgs, config, ... }:
+{ pkgs, config,lib, ... }:
 
 {
   home.packages = with pkgs; [
@@ -32,7 +32,7 @@
 
       # 外观
       round_corners = 10;
-      background_alpha = 0.5;
+      background_alpha = lib.mkForce 0.5;
     };
   };
 }
