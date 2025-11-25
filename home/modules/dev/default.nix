@@ -41,7 +41,6 @@
   programs.direnv = {
     enable = true;
     nix-direnv.enable = true;
-    enableFishIntegration = true;
   };
 
   # 环境变量配置
