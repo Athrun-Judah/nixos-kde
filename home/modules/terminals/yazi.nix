@@ -38,7 +38,7 @@
     ffmpegthumbnailer # 视频预览
     unar              # 压缩包预览
     jq                # JSON 预览
-    poppler_utils     # PDF 预览
+    poppler-utils     # PDF 预览
     fd                # 文件查找
     ripgrep           # 内容查找
     fzf               # 模糊搜索
