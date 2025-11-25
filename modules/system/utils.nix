@@ -38,15 +38,15 @@
     pulse.enable = true;
     jack.enable = true;
     extraConfig = {
-      "99-bluez-config.conf" = ''
-        "bluez5.properties" = {
-          "bluez5.enable-sbc-xq" = true;
-          "bluez5.enable-msbc" = true;
-          "bluez5.enable-ldac" = true; # 需要 bluez-alsa
-          "bluez5.enable-aptx" = true; # 需要 bluez-alsa
-          "bluez5.enable-aptx-hd" = true; # 需要 bluez-alsa
-        };
-      '';
+      # "99-bluez-config.conf" = ''
+      #   "bluez5.properties" = {
+      #     "bluez5.enable-sbc-xq" = true;
+      #     "bluez5.enable-msbc" = true;
+      #     "bluez5.enable-ldac" = true; # 需要 bluez-alsa
+      #     "bluez5.enable-aptx" = true; # 需要 bluez-alsa
+      #     "bluez5.enable-aptx-hd" = true; # 需要 bluez-alsa
+      #   };
+      # '';
     };
   };
 
