@@ -5,7 +5,7 @@
     enable = true;
     settings = {
       padding-x = 8;
-      padding-y = [8, 8];
+      padding-y = [8 8];
       cursor = {
         shape = "beam";
         blinking = true;
