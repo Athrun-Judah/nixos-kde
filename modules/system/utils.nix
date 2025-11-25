@@ -28,7 +28,6 @@
   services.power-profiles-daemon.enable = true;
 
   # 4. 音频
-  sound.enable = true;
   hardware.pulseaudio.enable = false;
   security.rtkit.enable = true;
   services.pipewire = {
