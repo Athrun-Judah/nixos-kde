@@ -10,9 +10,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    # Niri
-    niri.url = "github:sodiboo/niri-flake";
-
     # Stylix
     stylix.url = "github:danth/stylix";
 
@@ -20,7 +17,7 @@
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
   };
 
-  outputs = {self, nixpkgs, home-manager, niri, stylix, chaotic, ...}@inputs:
+  outputs = {self, nixpkgs, home-manager, stylix, chaotic, ...}@inputs:
   let
   username = "player";
   host = "legion";
@@ -38,7 +35,6 @@
 
           chaotic.nixosModules.default
           stylix.nixosModules.stylix
-          niri.nixosModules.niri
 
           home-manager.nixosModules.home-manager
           {
