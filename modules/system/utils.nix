@@ -50,9 +50,7 @@
     };
   };
 
-  pkgs.bluez-alsa = {
-    enable = true;
-  };
+  environment.systemPackages = [ pkgs.bluez-alsa ];
 
   # 5. 安全与其他
   # 开启 Polkit 认证代理服务 (后面会在 home 里配置 GUI 代理)
