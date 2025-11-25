@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs,lib, ... }:
 
 {
   programs.rio = {
@@ -17,7 +17,7 @@
       window = {
         width = 1000;
         height = 600;
-        opacity = 0.8;
+        opacity = lib.mkForce 0.8;
         mode = "windowed";
         decorations = "Transparent";
       };
