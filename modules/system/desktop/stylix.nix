@@ -45,7 +45,8 @@
     noto-fonts-cjk-sans
   ];
 
-  stylix.gt.enable = true;
+  stylix.gtk.enable = true;
+  stylix.qt.enable = false;
 
   # 针对 KDE 的目标配置
   stylix.targets = {
