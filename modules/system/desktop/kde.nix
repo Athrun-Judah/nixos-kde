@@ -11,7 +11,6 @@
 
   # 2. KDE Plasma 6 桌面
   services.desktopManager.plasma6.enable = true;
-  stylix.targets.kde.enable = true;
 
   # 3. 强力去肥大化 (Debloat)
   # 这是一个“黑名单”，禁止安装以下 KDE 全家桶软件
