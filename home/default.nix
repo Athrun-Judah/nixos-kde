@@ -9,7 +9,7 @@
     ./modules/terminals/yazi.nix
     ./modules/editors/helix.nix
     ./modules/editors/zed.nix
-    ./modules/browsers/default.nix
+    ./modules/browser/default.nix
     ./modules/input/fcitx5.nix
     ./modules/tools/common.nix
     ./modules/dev/default.nix
