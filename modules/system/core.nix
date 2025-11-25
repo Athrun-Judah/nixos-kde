@@ -1,6 +1,8 @@
 { pkgs, host, username, ... }:
 
 {
+  nixpkgs.config.allowUnfree = true;
+
   networking.hostName = host;
   networking.networkmanager.enable = true;
 
