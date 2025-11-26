@@ -11,7 +11,7 @@
     ];
   };
 
-  programs.librewolf = {
+  programs.librewolf-bin = {
     enable = true;
     # Librewolf 的设置
     settings = {
