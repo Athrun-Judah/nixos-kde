@@ -14,7 +14,7 @@
     stylix.url = "github:danth/stylix";
 
     # Chaotic Nyx (CachyOS kernel & Optimizations)
-    # chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
+    chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
   };
 
   outputs = {self, nixpkgs, home-manager, stylix, ...}@inputs:
@@ -33,7 +33,7 @@
         modules = [
           ./hosts/${host}/default.nix
 
-          # chaotic.nixosModules.default
+          chaotic.nixosModules.default
           stylix.nixosModules.stylix
 
           home-manager.nixosModules.home-manager

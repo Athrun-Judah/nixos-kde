@@ -1,6 +1,18 @@
 { pkgs, host, username, ... }:
 
 {
+
+  nix.settings.substituters = [
+    "https://cache.nixos.org/"
+    "https://chaotic-nyx.nixos.community"
+    "https://nix-community.cachix.org"
+  ];
+  nix.settings.trusted-public-keys = [
+    "cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY="
+    "chaotic-nyx.nixos.community-1:O2pES2AC3fmSLX3jpmYpkyS2l2tVn21/3lY5cO51B40="
+    "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
+  ];
+
   nixpkgs.config.allowUnfree = true;
 
   networking.hostName = host;
@@ -15,6 +27,8 @@
 
   # Nix 设置
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
+  nix.settings.max-jobs = 4;
+  nix.settings.cores = 8;
   nix.gc = {
     automatic = true;
     dates = "weekly";

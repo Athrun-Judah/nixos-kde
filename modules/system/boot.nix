@@ -5,7 +5,7 @@
   # boot.kernelPackages = pkgs.linuxPackages_cachyos;
 
   # CachyOS 缓存 (极大加速编译)
-  # chaotic.nyx.cache.enable = true;
+  chaotic.nyx.cache.enable = true;
 
   # SCX 调度器 (游戏性能优化)
   services.scx = {
