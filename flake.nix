@@ -17,7 +17,7 @@
     chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
   };
 
-  outputs = {self, nixpkgs, home-manager, stylix, ...}@inputs:
+  outputs = {self, nixpkgs, home-manager, stylix, chaotic, ...}@inputs:
   let
   username = "player";
   host = "legion";
