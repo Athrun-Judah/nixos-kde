@@ -12,8 +12,6 @@
 
   # Btrfs 优化
   fileSystems."/".options = [ "compress=zstd" "noatime" ];
-  fileSystems."/home".options = [ "compress=zstd" "noatime" ];
-  fileSystems."/nix".options = [ "compress=zstd" "noatime" ];
 
   # Nix 设置
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
